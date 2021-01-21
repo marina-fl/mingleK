@@ -1,8 +1,8 @@
 function DropdownList(){
        return (
-        <div>
-            Dropdown list
-        </div>
+        <button>
+            Show articles
+        </button>
     );
 }
 

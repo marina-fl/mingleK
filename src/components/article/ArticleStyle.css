@@ -1,0 +1,20 @@
+.form-article {
+    padding: 20px 40px; /*отступ вложенного текста от рамки*/ 
+    background: #968089; /* фон рамки */
+    font-size: 20px; /* размер шрифта */
+    border: 2px dashed #e3c3d4; /* размер, форма и цвет рамки */
+    border-radius: 10px; /*  радиус скругления углов рамки */
+    box-shadow: 0 0 0 4px #968089, 2px 1px 6px 4px rgba(150, 128, 137, 0.5); /* смещение, размер и цвет тени рамки*/
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    width: 500px; /* Ширина макета */
+    margin: +2 auto; /* Выравниваем по правому краю */
+    position: relative; /* Относительное позиционирование */
+}
+
+.list-style{
+	display: grid;
+  	grid-template-columns: repeat(4, 250px);
+  	grid-auto-rows: 350px;
+  	justify-content: space-evenly;
+}
